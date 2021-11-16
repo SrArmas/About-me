@@ -3,22 +3,48 @@
 html {
   font-family: "Open Sans Condensed", sans-serif;
   /* Google Fonts página para encontrar fuentes*/
+  background-color: lightyellow;
 }
 
 h1 {
+  margin: 0;
+  padding: 20px 0;
   color: lightyellow;
   text-decoration: underline overline lightyellow;
+  text-align: center;
 }
-p,
-li {
+img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  border: lightyellow 3px solid;
+}
+p {
   color: lightyellow;
-  font-size: 1.5 em;
+  font-size: 20px;
 }
-
+li {
+  border: lightyellow 5px solid;
+  color: lightyellow;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+ul {
+  text-align: center;
+}
 body {
   background-color: seagreen;
+  margin: 100px;
+  padding: 0 20px 20px 20px;
+  border: 5px solid lightyellow;
 }
 
 #tortilla {
-  border: left width 2px, right width 2px, top width 2px, bottom width 2px;
+  width: 10%;
+  border: lightyellow 2px solid;
+}
+
+a {
+  color: yellow;
 }
